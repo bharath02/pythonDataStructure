@@ -1,4 +1,4 @@
-# Write a Python program to remove the first occurrence of a specified element from an array. 
+# Write a Python program to remove the first occurrence of a specified element from an array.
 class removeFirstOccurrence:
     def mostRepeateRemove(self,List):
         for i in range(len(List)-1):
