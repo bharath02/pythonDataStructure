@@ -1,3 +1,4 @@
+#Write a Python program to create a set.
 class setCreating:
     def set(self,set1,set2):
         setx=set1&set2
