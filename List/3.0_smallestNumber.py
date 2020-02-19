@@ -10,7 +10,11 @@ class smallestNumber:
     def functionMin(self,list):
         minVal=min(list)
         print("Smallest value with function : ", minVal)
+    def sortMin(sel,list):
+        sortVal=sorted(list)
+        print("sorted to find a list small value : ",list[0])
 list=[2,22,33,55,5,10]
 smallvalue=smallestNumber()
 smallvalue.minimumNumber(list)
 smallvalue.functionMin(list)
+smallvalue.sortMin(list)
