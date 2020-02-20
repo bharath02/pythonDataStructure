@@ -8,12 +8,13 @@ class addINGandLY:
         if(len(String)==3):
             String=String+'ing'
             print(String)
-        if(len(String)-1>=5):
-            String=String+'ly'
-            print(String)
+    def strAddLy(self,String1):
+        if(String1[-3:]=='ing'):
+            String1=String1+'ly'
+            print(String1)
 
 Str='abc'
 Str1='string'
 adding=addINGandLY()
 adding.strAddIngAndLy(Str)
-adding.strAddIngAndLy(Str1)
+adding.strAddLy(Str1)
